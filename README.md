@@ -12,19 +12,20 @@
 `git checkout -b <新規ブランチ>`  
 
 `git pull`
-`git pull <リポジトリ> <ブランチ>`
+origin 上の <ブランチ>を、現在チェックアウトしているブランチに取り込む  
+`git pull <origin> <ブランチ>`
 
 `git add -A`
 `git commit`
 
-- push
-ローカルブランチを、リモートレポジトリ「origin」上の同名のブランチに反映
+- push  
+ローカルブランチを、リモートレポジトリ「origin」上の同名のブランチに反映  
 `git push <origin> <プッシュするローカルブランチ>`
 
-- タグ作成
+- タグ作成  
 `git tag -a <タグ名> -m '<コメント>' <コミットID>`
 
 `git log`
 `git log --graph`
 
-git rebase master
+`git rebase master`
