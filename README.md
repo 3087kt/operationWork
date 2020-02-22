@@ -11,10 +11,12 @@
 ブランチ作成  
 `git checkout -b <新規ブランチ>`  
 
+- リモートレポジトリの更新内容をローカルに取得し、現在のブランチに取り込む
 `git pull`
 origin 上の <ブランチ>を、現在チェックアウトしているブランチに取り込む  
 `git pull <origin> <ブランチ>`
 
+- ステージング、コミット
 `git add -A`
 `git commit`
 
@@ -25,7 +27,9 @@ origin 上の <ブランチ>を、現在チェックアウトしているブラ�
 - タグ作成  
 `git tag -a <タグ名> -m '<コメント>' <コミットID>`
 
+- git log
 `git log`
 `git log --graph`
 
+- リベース
 `git rebase master`
